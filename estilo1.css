@@ -1,0 +1,312 @@
+body {
+	margin: 0;
+	padding: 0;
+	font: 85% "Trebuchet MS", "arial", "hevetica", "sans-serif";
+	text-align: center;
+	background-color: #E7E7E7;
+}
+a:link { color: #B52C07; }
+a:visited { color: #669; }
+a:hover, a:active { color: #B52C07; }
+h1 {
+	color: #000066;
+	font-size: 200%;
+	font-weight: bold;
+	margin: 0;
+	padding: 0.6em 0;
+	text-transform: uppercase;
+}
+h2 {
+	color: #036;
+	font-size: 125%;
+	font-weight: bold;
+	margin: 0 0 2px 0;
+}
+h3 {
+	color: #036;
+	font-size: 110%;
+}
+.center {
+	text-align: center;
+}
+.left {
+	text-align: left;
+}
+.right {
+	text-align: right;
+}
+option.familia {
+	width: 80%;
+	background-color: #036; 
+	font-weight: bold; 
+	font-size: 12px; 
+	color: white;
+}
+#contenedor {
+	margin: 0px;
+	width: 100%;
+	text-align: left;
+	background-color: #E7E7E7;
+	line-height: 150%;
+}
+
+/* estilo del div CABECERA, es el contenedor del logo*/
+#cabecera {
+	height: 90px;
+	padding-left: 120px;
+	padding-top: 1px;
+	background-image: url(img/EspexHorizontal2.gif);
+	background-repeat: no-repeat;
+	background-position: 20px 0px;
+	background-color: #fff;
+	border-bottom: 1px solid black;
+}
+
+/* estilo del div NAVEGADOR, entre el logo y el cuerpo de la página*/
+#navegador {
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	background-color: #036;
+	float: left;
+	width: 100%;
+}
+
+/* estilo de la lista NAVLIST, el menú bajo el logo */
+ul#navlist { 
+	list-style-type: none;
+	padding: 0 0 0 2em;
+	margin: 0;
+}
+ul#navlist li { display: inline; }
+ul#navlist li a {
+	float: left;
+	color: #fff;
+	background-color: #036;
+	padding: 0.2em 1em;
+	text-decoration: none;
+	border-right: 1px solid #fff;
+}
+ul#navlist li a:hover {
+	background-color: #369;
+	color: #fff;
+}
+
+/* estilo del div CUERPO, contiene la información principal de cada página */
+#cuerpo	{
+	float: left;
+	margin: 0;
+	padding: 1em 2em;
+	width: 610px;
+	background-color: #E7E7E7;
+	border-bottom: 1px solid black;
+}
+
+/* estilo del div DETALLE, esto dentro de CUERPO */
+#detalle {
+	margin: 0;
+	padding: 0;
+}
+
+/* estilo de la lista LATERAL, el menú corrido a la derecha */
+#lateral {
+	width: 200px;
+	margin-left: 680px;
+	margin-top: 40px;
+	padding: 1em;
+	background-color: #ccc;
+}
+ul#navlateral { 
+	list-style-type: none;
+	padding: 1em 0em;
+	margin: 0;
+	line-height: 165%;
+}
+ul#navlateral li a {
+	text-decoration: none;
+	padding-left: 1.2em;
+	background-image: url(img/flechas.jpg);
+	background-repeat: no-repeat;
+	background-position: 0em .2em;
+	color: #002084;
+}
+ul#navlateral li a:hover { color: #002084; }
+ul#navlateral li a:visited { color: #002084; }
+
+ul#navlateral ul li{
+	list-style-type: none;
+	margin: 0;
+	padding: .3em 0em;
+}
+.navlat {
+	width: 150px;
+	font-size: 10px;
+	text-transform: uppercase;
+}
+#lateral h3 { margin: 0; }
+
+/*Estilo para la clase "menu", los estilo acordeon */
+ul.menu, ul.menu ul {
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  width: 15em;
+}
+
+ul.menu {
+  padding-top: 1em;	
+}
+
+ul.menu a {
+  display: block;
+  text-decoration: none;	
+}
+
+ul.menu li {
+  margin-top: 1px;
+}
+
+ul.menu li a {
+  background: #036;
+  color: #fff;	
+  padding: 0.5em;
+}
+
+ul.menu li a:hover {
+  background: #369;
+}
+
+ul.menu li ul li a {
+  background: #ccc;
+  color: #000;
+  border-left: 5px #036 solid;  
+  padding-left: 20px;
+}
+
+ul.menu li ul li a:hover {
+  background: #aaa;
+  border-left: 5px #036 solid;
+  padding-left: 15px;
+}
+
+/*Estilo del div pie, el de abajo*/
+#pie {
+	clear: both;
+	margin: 0;
+	padding: 1em 2em;
+	background-color: #E7E7E7;
+	font-size: 85%;
+}
+
+/*Estilo de las tablas*/
+#detalle .tabla {
+	 font-size: 75%;
+	 padding: 1em;
+	 background-color:#fff;
+	 width: 100%;
+	 line-height: 1.5em;
+	 text-align: right;
+}
+#detalle .tabla caption {
+	font-size: 2em;
+	font-weight: bold;
+	color: #002084;
+	background-color: #fff;
+	text-align: left;
+	margin-bottom: 2px;
+	padding: .3em .6em;
+}
+#detalle .tr_cabecera {
+	border-right: 2px solid #fff;
+	color:#fff;
+	text-align:center;
+	padding:2px;
+	background-color: #004080;
+}
+#detalle .tr_detalle {
+	background-color: #fff;
+	border-bottom: 2px solid #ccc;
+}
+#detalle .tr_totales {
+	background-color: #DAEBEB;
+	border-top: 1px solid #004080;
+}
+#detalle td {
+	padding: 0.2em;
+}
+#detalle .td_categoria {
+	padding-left: 1em;
+	text-align: left;
+	font-weight: bold;
+	background-color:#EBEBEB;
+}
+
+/*Estilo2 de las tablas*/
+.tabla2 {
+	 font-size: 85%;
+	 padding: 1em;
+	 background-color:#fff;
+	 width: 100%;
+	 line-height: 1.5em;
+	 text-align: left;
+}
+.tabla2 caption {
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #030;
+	background-color: #fff;
+	text-align: left;
+	margin-bottom: 2px;
+	padding: .3em .6em;
+}
+.tr_head {
+	border-right: 2px solid #fff;
+	color:#fff;
+	text-align:center;
+	padding:2px;
+	background-color: #004080;
+}
+.td_subtitulo {
+	border-right: 2px solid #fff;
+	color:#fff;
+	text-align:center;
+	padding:2px;
+	background-color: #004080;
+}
+.nombre_campo {
+	padding-left: 1em;
+	text-align: left;
+	font-weight: bold;
+	background-color:#EBEBEB;
+}
+.nombre_campo_2 {
+	padding-left: 1em;
+	text-align: left;
+	background-color:#EBEBEB;
+}
+
+span.req {
+	color: red;
+	font-weight: bold;
+}
+
+/*Personalización de las tablas con datatable*/
+.dataTables_wrapper {
+	background-color: white;
+	padding: 1em;
+}
+#detalle .dataTables_wrapper .tabla {
+	padding-right: 0;
+	padding-left: 0;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+	padding: 0.2em 0.7em;
+}
+
+/*Personalización de las validaciones con jquery validation*/
+.help-block-error {
+    color: red;
+}
+.help-block {
+    display: block;
+}

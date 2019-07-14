@@ -1,0 +1,103 @@
+
+#tamano {
+	width: 90% !important;
+
+}
+
+.desact {
+background:  #91A3B0;
+}
+
+
+#verTodo .modal-body{
+  height: 363px;
+  width: 100%;
+  overflow-y: auto;
+}
+
+h2.titulolibro613 {
+	font-family: 'Open Sans', "Adobe Blank"; font-style: italic;
+}
+
+.cep{
+	font-size: 13px
+}
+
+.alto {
+    line-height: 13px;
+    width: 170px; 
+}
+
+.p-5s{
+	padding-bottom: 3px !important;
+}
+
+.xxx{
+	padding-right: 0!important;
+	width: 130px;
+}
+.xx{
+	padding-left: 7px!important;
+	
+}
+
+div.especial .col-md-12{
+	padding-right: 0!important;
+	padding-left:  0!important;
+}
+
+tfoot input {
+        width: 100%;
+        padding: 3px;
+        box-sizing: border-box;
+    }
+
+/*th.dt-center, td.dt-center { text-align: center; } */
+
+
+
+.onoffswitch {
+    position: relative; width: 70px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #999999; border-radius: 15px;
+}
+.onoffswitch-inner {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+    display: block; float: left; width: 50%; height: 23px; padding: 0; line-height: 23px;
+    font-size: 13px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+    content: "Sin Nov";
+    padding-left: 5px;
+    background-color: #34A7C1; color: #FFFFFF;
+}
+.onoffswitch-inner:after {
+    content: "Con Nov";
+    padding-left: 5px;
+    background-color: #EEEEEE; color: #999999;
+    
+}
+.onoffswitch-switch {
+    display: block; width: 13px; margin: 5px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 43px;
+    border: 2px solid #999999; border-radius: 15px;
+    transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px; 
+}
